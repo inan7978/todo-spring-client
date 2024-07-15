@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+.all-tasks-container {
+  padding: 35px;
+  width: 750px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.task-container-completed {
+  background-color: rgba(0, 0, 0, 0.233);
+  display: flex;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 0.486);
+}
+
+.task-container {
+  background-color: rgba(255, 217, 0, 0.562);
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-text {
+  font-size: large;
+  font-weight: 650;
+}
+.new-task-field {
+  padding: 35px;
+  display: flex;
+  justify-content: center;
+}
+
+.new-task-text {
+  height: 50px;
+  width: 500px;
+  font-size: 25px;
+  border: none;
+  background-color: rgba(216, 218, 218, 0.527);
+}
+
+.new-task-text:focus {
+  outline: none;
+}
+
+.new-task-button {
+  height: 50px;
+  width: 50px;
+  background-color: lightgreen;
+  border: none;
+  font-size: 35px;
+}
+
+.checkbox-container {
+  display: flex;
+  padding-right: 15px;
+}
+
+.text-container {
+  display: flex;
+  width: 100%;
+}
+
+.del-btn-container {
+  display: flex;
+  align-items: center;
+  background-color: lightcoral;
+}
+
+.del-btn {
+  border: none;
+  background-color: lightcoral;
+  color: white;
+  height: 25px;
+  width: 25px;
+}
+
+.checkbox {
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-color: #eee;
+}
